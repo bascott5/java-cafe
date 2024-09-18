@@ -1,0 +1,27 @@
+body {
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+nav {
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0 25px;
+}
+
+a {
+  color: darkslategrey;
+  float: left;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 25px;
+  margin: 0;
+  cursor: default;
+}
+
+a:hover {
+  background-color: orange;
+}

@@ -1,0 +1,32 @@
+body {
+    background-color: darkslategrey;
+}
+
+main {
+    margin-top: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+    display: inline-block;
+}
+
+h1, h3, p {
+    text-align: left;
+}
+
+.left {
+    float: left;
+}
+
+.text {
+    color: lightblue;
+    float: right;
+    padding: 0 25px;
+}
